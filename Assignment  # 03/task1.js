@@ -1,21 +1,14 @@
-var qualification1 = 'SSC';
-var qualification2 = 'HSC';
-var qualification3 = 'BSC';
-var qualification4 = 'BS';
-var qualification5 = 'BCOM';
-var qualification6 = 'MS';
-var qualification7 = 'M.Phil.';
-var qualification8 = 'PhD';
+var qualification = ['SSC', 'HSC', 'BSC', 'BS', 'BCOM', 'MS', 'M.Phil.', 'PhD'];
 
 document.write(`
 Qualifications:  <br />
 <br />
-${qualification1} <br />
-${qualification2} <br />
-${qualification3} <br />
-${qualification4} <br />
-${qualification5} <br />
-${qualification6} <br />
-${qualification7} <br />
-${qualification8}
+${qualification[0]} <br />
+${qualification[1]} <br />
+${qualification[2]} <br />
+${qualification[3]} <br />
+${qualification[4]} <br />
+${qualification[5]} <br />
+${qualification[6]} <br />
+${qualification[7]}
 `)

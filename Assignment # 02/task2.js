@@ -1,15 +1,15 @@
-var trafic = prompt("Please Enter the Trafic Color");
-var r = "red";
-var y = "yellow";
-var g = "green";
+var trafic = prompt("Please Enter the Trafic Color").toLowerCase();
+var red = "red";
+var yellow = "yellow";
+var green = "green";
 
-if (trafic == r) {
+if (trafic == red) {
     alert("Must Stop")
 }
-else if (trafic == y) {
+else if (trafic == yellow) {
     alert("Ready to Move")
 }
-else if (trafic == g) {
+else if (trafic == green) {
     alert("Move Now")
 }
 else {

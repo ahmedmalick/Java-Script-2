@@ -1,4 +1,4 @@
-var num = prompt("Enter the number you want to get mean: ");
+var num = prompt("Enter the number you want to get mean");
 var output = [];
 var result = 0;
 

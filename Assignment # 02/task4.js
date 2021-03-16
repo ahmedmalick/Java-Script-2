@@ -6,10 +6,10 @@ var totalMarks = 300;
 var obtainedMarks = sub1 + sub2 + sub3;
 var percentage = (obtainedMarks * 100 / totalMarks).toFixed();
 
-document.write(`<h1>Marks Sheet</h1> <br /><br /><br />`);
-document.write(`Total marks: ${totalMarks} <br />`);
-document.write(`Marks obtained: ${obtainedMarks} <br />`);
-document.write(`Percentage: ${percentage}% <br />`);
+document.write(`<h1>Marks Sheet</h1> <br />
+Total marks: ${totalMarks} <br />
+Marks obtained: ${obtainedMarks} <br />
+Percentage: ${percentage}% <br />`);
 
 if (percentage <= 100 && percentage >= 80) {
     document.write(`Grade: A+ <br />`);

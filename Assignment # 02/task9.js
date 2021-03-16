@@ -1,20 +1,16 @@
 var input = prompt(`Please enter any vowel character`).toLowerCase();
 
-var vowel1 = 'a';
-var vowel2 = 'e';
-var vowel3 = 'i';
-var vowel4 = 'o';
-var vowel5 = 'u';
+var vowel = ['a', 'e', 'i', 'o', 'u'];
 
-if (input === vowel1) {
+if (input === vowel[0]) {
     alert(`It matched`)
-} else if (input === vowel2) {
+} else if (input === vowel[1]) {
     alert(`It matched`)
-} else if (input === vowel3) {
+} else if (input === vowel[2]) {
     alert(`It matched`)
-} else if (input === vowel4) {
+} else if (input === vowel[3]) {
     alert(`It matched`)
-} else if (input === vowel5) {
+} else if (input === vowel[4]) {
     alert(`It matched`)
 } else{
     alert(`Enter correct vowel`)

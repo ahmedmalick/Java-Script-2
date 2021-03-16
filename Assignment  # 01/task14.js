@@ -1,4 +1,5 @@
-var a = 2, b = 1;  // declare and initialize two variables a with 2 and b with 1
+var a = 2;  // declare and initialize a with 2.
+var b = 1;  // declare and initialize b with 1.
 
 var result = --a - --b + ++b + b--;  // 1 - 0 + 1 + 1 = 3
 
@@ -8,4 +9,10 @@ var result = --a - --b + ++b + b--;  // 1 - 0 + 1 + 1 = 3
 
 --a - --b + ++b;  // -1 - -1 + 0 = 0
 
-var c = --a - --b + ++b + b--;  // -2 - -2 + -1 + 1 = -2
+--a - --b + ++b + b--;  // -2 - -2 + -1 + 1 = -2
+
+document.write(
+    `The value of a is: ${a} <br />
+    The value of b is: ${b} <br />
+    The result is: ${result}`
+)

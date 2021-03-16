@@ -1,6 +1,5 @@
 var city = 'Hyderabad';
-alert(`City before replace ${city}`)
+document.write(`City before replace ${city} <br />`)
 
 var replacedCity = city.replace('Hyder', 'Islam')
-
-alert(`City after replaced ${replacedCity}`)
+document.write(`City after replaced ${replacedCity}`)

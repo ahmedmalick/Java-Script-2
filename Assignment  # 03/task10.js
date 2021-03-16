@@ -1,6 +1,5 @@
-var array = [20,53,78,4,91,12];
-document.write(` ${array} <br />`)
+var numbers = [20, 53, 78, 4, 91, 12];
+document.write(`Array is: ${numbers} <br />`)
 
-var sortedArray = array.sort();
-
-document.write(`Sorted Array: ${sortedArray}`)
+var sortedNumber = numbers.sort((a, b) => a - b);
+document.write(`Sorted Array: ${sortedNumber}`);

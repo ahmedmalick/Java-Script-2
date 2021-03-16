@@ -1,14 +1,19 @@
 var colours = ['red', 'green', 'blue', 'orange', 'pink', 'purple'];
 
-var input1 = prompt('Would you like to add a color in the beginning of the array');
-var input2 = prompt('Would you like to add a color in the end of the array');
+var input1 = prompt('Which colour you wanna add in the beginning of the array');
+colours.unshift(input1);
+alert(colours);
+
+var input2 = prompt('Which colour you wanna add in the end of the array');
+colours.push(input2);
+alert(colours);
+
 var input3 = Number(prompt('To which index of array would you like to add a colour'));
 var input4 = prompt('Which colour would you like to add at that particular index');
-var input5 = Number(prompt('To which index of array would you like to delete a colour'));
-var input6 = Number(prompt('How much colour would you like to delete'));
+colours[input3] = input4
+alert(colours);
 
-colours.unshift(input1);
-colours.push(input2);
-colours.unshift('black', 'white')
-colours.shift(0, 1)
-colours.shift(colours.length - 1, 1)
+var input5 = Number(prompt('To which index of array would you like to delete a colour'));
+var input6 = Number(prompt('How many colour would you like to delete'));
+colours.splice(input5, input6) 
+alert(colours);
